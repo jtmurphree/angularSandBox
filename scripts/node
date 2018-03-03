@@ -1,0 +1,7 @@
+Http Server running at http://localhost:8000/
+GET /app/index.html Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+404 Not Found: /app/index.html
+GET /favicon.ico Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+404 Not Found: /favicon.ico
+GET /app/index.html Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+404 Not Found: /app/index.html

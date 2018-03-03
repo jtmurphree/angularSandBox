@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta chatset="utf-8" />
+	<title ng-bind="title"></title>
+	
+	
+
+	<style type="text/css">
+
+		.myGrid {
+
+			width: 500px;
+			height: 200px;
+		}
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/lodash.min.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/jszip.min.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/excel-builder.dist.js"></script>
+	<script src="https://cdn.rawgit.com/angular-ui/bower-ui-grid/master/ui-grid.min.js"></script>
+	<link rel="stylesheet" href="http://ui-grid.info/release/ui-grid.css" type="text/css">
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+</head>
+
+<body>
+		<div ng-controller="BookController">
+			<div ui-grid="gridOptions" class="myGrid"></div>
+		</div>
+</body>
+
+</html>
